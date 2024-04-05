@@ -16,7 +16,8 @@ function goods() {
                 element += "<td>" + riga.segnalato + "</td>";
                 element += "<td>" + riga.data + "</td>";
                 element += "<td>" + riga.motivazione + "</td>";
-                element += '<td><button type="button" class="btn btn-sm btn-outline-secondary"  onClick="viewIlleciti(' + i +')"><i class="fa-solid fa-desktop"></i></td>';
+                element += '<td><button type="button" class="btn btn-sm btn-outline-secondary"  onClick="viewIlleciti(' + i + ')"><i class="fa-solid fa-desktop"></i></td>';
+                element += '<td><button type="button" class="btn btn-sm btn-outline-secondary"  onClick="viewIlleciti(' + i + ')"><i class="fa-solid fa-comments"></i></td>';
                 $("<tr/>")
                     .append(element)
                     .appendTo("#tabella");
